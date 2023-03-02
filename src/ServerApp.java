@@ -28,7 +28,6 @@ public class ServerApp {
                     case "0":
                         break label;
                     case "1": {
-                        dataOutputStream.writeUTF("Введите данные студента: ");
                         dataOutputStream.writeUTF("Введите Имя студента: ");
                         String clientName = dataInputStream.readUTF();
                         dataOutputStream.writeUTF("Введите Фамилию студента: ");
