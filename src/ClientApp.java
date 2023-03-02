@@ -18,7 +18,6 @@ public class ClientApp {
                 request = scanner.nextLine();
                 dataOutputStream.writeUTF(request);
                 if (request.equals("0")) break;
-                System.out.println(dataInputStream.readUTF());
             }
 
         } catch (IOException e) {
